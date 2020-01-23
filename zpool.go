@@ -1133,8 +1133,6 @@ func (s PoolStatus) String() string {
 		return "FAILURE_WAIT"
 	case PoolStatusIoFailureContinue: /* failed I/O, failmode 'continue' */
 		return "FAILURE_CONTINUE"
-	case PoolStatusIOFailureMap: /* ailed MMP, failmode not 'panic' */
-		return "HOSTID_FAILURE_MAP"
 	case PoolStatusBadLog: /* cannot read log chain(s) */
 		return "BAD_LOG"
 	case PoolStatusErrata: /* informational errata available */

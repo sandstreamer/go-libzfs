@@ -94,7 +94,6 @@ const (
 	PoolStatusHostidRequired                      /* multihost=on and hostid=0 */
 	PoolStatusIoFailureWait                       /* failed I/O, failmode 'wait' */
 	PoolStatusIoFailureContinue                   /* failed I/O, failmode 'continue' */
-	PoolStatusIOFailureMap                        /* ailed MMP, failmode not 'panic' */
 	PoolStatusBadLog                              /* cannot read log chain(s) */
 	PoolStatusErrata                              /* informational errata available */
 
